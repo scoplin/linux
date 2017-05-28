@@ -1468,6 +1468,11 @@ static const struct hid_device_id mt_devices[] = {
 		MT_USB_DEVICE(USB_VENDOR_ID_VTL,
 			USB_DEVICE_ID_VTL_MULTITOUCH_FF3F) },
 
+        /* Weida */
+        { .driver_data = MT_CLS_NSMU,
+                MT_USB_DEVICE(USB_VENDOR_ID_WEIDA,
+                        USB_DEVICE_ID_WEIDA_PLANAR_CT2235) },
+
 	/* Wistron panels */
 	{ .driver_data = MT_CLS_NSMU,
 		MT_USB_DEVICE(USB_VENDOR_ID_WISTRON,
